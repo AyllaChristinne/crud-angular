@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    bottom: 0; /*Distancia 0 do bottom*/
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer > span { /* span "direto" / sem classe (não pega o 3 de cod3r)*/
+    font-size: 1.1rem;
+    font-weight: 300;
+}
