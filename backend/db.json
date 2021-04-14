@@ -1,19 +1,9 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta Preta",
-            "price": 1.99
-        },
-        {
-            "id": 2,
-            "name": "Lápis de escrever",
-            "price": 0.99
-        },
-        {
-            "id": 3,
-            "name": "Caderno de anotações",
-            "price": 3.99
-        }
-    ]
+  "products": [
+    {
+      "id": 3,
+      "name": "Caderno de anotações",
+      "price": 3.99
+    }
+  ]
 }
