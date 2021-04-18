@@ -1,8 +1,7 @@
 import { Product } from './../product.model';
 import { ProductService } from './../product.service';
+
 import { Component, OnInit } from '@angular/core';
-import { MatPaginator } from '@angular/material/paginator';
-import { ViewChild } from '@angular/core';
 
 
 @Component({

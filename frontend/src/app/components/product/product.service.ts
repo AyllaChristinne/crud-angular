@@ -1,10 +1,12 @@
-import { Product } from './product.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import {MatSnackBar} from '@angular/material/snack-bar';
+
 import { Observable } from 'rxjs';
 import { map, catchError} from 'rxjs/operators';
 import { EMPTY } from 'rxjs';
+
+import { Product } from './product.model';
 
 @Injectable({
   providedIn: 'root'
@@ -59,5 +61,4 @@ export class ProductService {
     this.showMessage('Ocorreu um erro!', true);
     return EMPTY;
   }
-  
 }
